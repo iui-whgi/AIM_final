@@ -9,6 +9,11 @@ nlu:
 #처음 주문할 때 주문하는 예상 질문지
   - intent: order_coffee
     examples: |
+      - [카라멜](drink_type) 한 잔 주세요
+      - [카라멜](drink_type) 주세요
+      - [아이스](temperature) [카라멜](drink_type) 한 잔
+      - [따뜻한](temperature) [카라멜](drink_type) 주세요
+
       - [아이스](temperature) [아메리카노](drink_type) [라지](size) [한](quantity)잔 주세요
       - [아이스](temperature) [아메리카노](drink_type) [라지](size) [한](quantity)잔 [아이스](temperature) [카페라떼](drink_type) [라지](size) [한](quantity)잔 주세요
       - [아이스](temperature) [아메리카노](drink_type) [라지](size) [한](quantity)잔, [아이스](temperature) [카페라떼](drink_type) [라지](size) [한](quantity)잔 주세요
